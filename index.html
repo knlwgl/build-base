@@ -9,12 +9,11 @@
       src="https://kit.fontawesome.com/d16e8d415a.js"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="form-box">
-        <h1>Build Base</h1>
+        <h1 id="title">Build Base</h1>
         <form>
           <div class="input-group">
             <div class="input-field">
@@ -22,7 +21,7 @@
               <input type="text" placeholder="Username" />
             </div>
 
-            <div class="input-field">
+            <div class="input-field" id="email">
               <i class="fa-solid fa-envelope"></i>
               <input type="email" placeholder="Email" />
             </div>
@@ -36,10 +35,13 @@
           </div>
           <div class="button-container">
             <button type="button" id="signinBtn">Sign In</button>
-            <button type="button" id="registerBtn" class="disable">Register</button>
+            <button type="button" id="registerBtn" class="disable">
+              Register
+            </button>
           </div>
         </form>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
